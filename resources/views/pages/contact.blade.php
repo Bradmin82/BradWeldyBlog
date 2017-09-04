@@ -1,8 +1,11 @@
 @extends('main')
 
+@section('title', '| Contact')
+@endsection
+
 @section('content')
 
-	<div class="content contact">
+	<div class="content row contact">
 		<div class="col-md-12">
 			{{-- <div class="title">Contact<br />Brad Weldy Marketing</div> --}}
 			<h1>Contact<br />Brad Weldy Marketing</h1>

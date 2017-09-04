@@ -1,5 +1,14 @@
 @extends('main')
 
+@section('title', '| Homepage')
+@endsection
+
+@section('stylesheets')
+	{{-- <link rel="stylesheet" type="text/css" href="styles.css"> --}}
+		<style>
+		</style>
+@endsection
+
 @section('content')
 
 			<div class="row">

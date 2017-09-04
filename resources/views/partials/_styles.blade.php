@@ -1,8 +1,4 @@
-@extends('main')
-
-@section('stylesheets')
-	<link rel="stylesheet" type="text/css" href="styles.css">
-			<style>
+<style>
 			nav.navbar {
 				position: fixed;
 			    top: 0px;
@@ -19,7 +15,6 @@
 				}
 			}
 			.container {
-				/*padding-top: 50px;*/
 				margin-top: 75px;
 			}
 
@@ -28,10 +23,10 @@
 				padding: 0;
 				width: 100%;
 				height: 100%;
-				color: #B0BEC5;
+				/*color: #B0BEC5;*/
 				display: table;
 				font-weight: 100;
-				font-family: 'Lato';
+				/*font-family: 'Lato';*/
 			}
 
 			/*.container {
@@ -64,13 +59,3 @@
 
 
 		</style>
-@endsection
-
-@section('content')
-
-			<div class="content row about">
-				<div class="title">About <br /> {{ $fullname }} Marketing</div>
-				<div class="quote">{{ Inspiring::quote() }}</div>
-			</div>
-
-@endsection
