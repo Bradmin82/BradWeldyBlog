@@ -17,6 +17,9 @@ Route::get('about', 'PagesController@getAbout');
 
 Route::get('/', 'PagesController@getIndex');
 
+Route::resource('posts', 'PostController');
+
+
 // Route::get('about', function () {
 // 	return view('about');
 // });
@@ -29,7 +32,7 @@ Route::get('home', 'HomeController@index');
 
 
 
-Route::controllers([
-	'auth' => 'Auth\AuthController',
-	'password' => 'Auth\PasswordController',
-]);
+// Route::controllers([
+// 	'auth' => 'Auth\AuthController',
+// 	'password' => 'Auth\PasswordController',
+// ]);
